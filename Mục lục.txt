@@ -1,0 +1,307 @@
+🧠 MỤC LỤC HỌC NLP FULL ROADMAP
+📘 CHƯƠNG 1: Nền tảng NLP & Text Processing (Cơ bản nhất)
+
+Hiểu text là gì, xử lý text như thế nào
+
+NLP là gì? ứng dụng
+Pipeline NLP tổng quát
+Encoding text (ASCII, Unicode, UTF-8)
+Tokenization là gì
+Word tokenization vs subword
+Sentence segmentation
+Normalization (lowercase, remove punctuation)
+Stopwords
+Stemming (Porter Stemmer)
+Lemmatization
+Regex trong NLP
+Cleaning noisy text
+Handling emoji, slang
+Vietnamese text processing
+Word segmentation (Tiếng Việt khó hơn English)
+N-gram (uni, bi, tri-gram)
+Bag of Words (BoW)
+TF (Term Frequency)
+IDF
+TF-IDF
+Cosine similarity
+Edit distance (Levenshtein)
+Jaccard similarity
+Text normalization nâng cao
+Spelling correction
+Basic text augmentation
+Data preprocessing pipeline
+Corpus là gì
+Dataset split (train/test/val)
+Thực hành: build pipeline xử lý text
+📗 CHƯƠNG 2: Machine Learning cho NLP
+
+NLP trước deep learning
+
+Feature engineering là gì
+Vector hóa text (BoW, TF-IDF)
+Linear Regression (intro)
+Logistic Regression
+Naive Bayes (rất quan trọng)
+SVM
+Decision Tree
+Random Forest
+KNN
+Bias vs Variance
+Overfitting
+Cross-validation
+Metrics (accuracy, precision, recall, F1)
+Confusion matrix
+Multi-class classification
+Multi-label classification
+Imbalanced data
+Feature selection
+Dimensionality reduction (PCA)
+Pipeline sklearn
+Hyperparameter tuning
+Grid search
+Random search
+Ensemble learning
+Error analysis
+Interpretability cơ bản
+Model deployment basic
+Thực hành: spam classifier
+Thực hành: sentiment analysis (ML)
+So sánh ML vs DL
+📙 CHƯƠNG 3: Word Embedding & Representation Learning
+
+Từ vector hóa sang semantic
+
+Tại sao BoW không đủ
+Distributional hypothesis
+Word2Vec overview
+CBOW
+Skip-gram
+Negative sampling
+GloVe
+FastText
+Embedding space
+Similarity & analogy
+Visualization (PCA, t-SNE)
+OOV problem
+Subword embedding
+Contextual vs static embedding
+Evaluation embedding
+Intrinsic vs extrinsic evaluation
+Polysemy problem
+Sentence embedding basics
+Doc2Vec
+Universal Sentence Encoder
+Embedding fine-tuning
+Pretrained embeddings
+Transfer learning basics
+Multilingual embeddings
+Alignment embeddings
+Bias in embeddings
+Debiasing
+Thực hành: train Word2Vec
+Thực hành: similarity search
+Thực hành: clustering text
+📕 CHƯƠNG 4: Deep Learning cho NLP
+
+Bắt đầu “AI hiện đại”
+
+Neural network basics
+Activation function
+Backpropagation
+Loss function
+Optimizer (SGD, Adam)
+Overfitting & regularization
+Dropout
+Embedding layer
+Sequence modeling
+RNN
+Vanishing gradient
+LSTM
+GRU
+Bidirectional RNN
+Attention mechanism
+Seq2Seq model
+Encoder-Decoder
+Beam search
+Teacher forcing
+Evaluation sequence model
+CNN cho NLP
+Character-level model
+Hierarchical model
+Multi-task learning
+Transfer learning DL
+Fine-tuning
+Pretraining
+Thực hành: sentiment (LSTM)
+Thực hành: seq2seq translation
+So sánh RNN vs Transformer
+📓 CHƯƠNG 5: Transformer & LLM (Cực quan trọng)
+
+Core của GPT, BERT
+
+Transformer overview
+Self-attention
+Multi-head attention
+Positional encoding
+Encoder vs Decoder
+BERT architecture
+GPT architecture
+Masked language model
+Causal language model
+Pretraining objective
+Fine-tuning BERT
+Tokenizer (BPE, WordPiece)
+Hugging Face ecosystem
+Transfer learning NLP
+Prompting cơ bản
+Zero-shot
+Few-shot
+Instruction tuning
+RLHF
+LLM evaluation
+Hallucination
+Context window
+Scaling law
+Quantization
+LoRA / PEFT
+Distillation
+RAG (intro)
+Thực hành: fine-tune BERT
+Thực hành: build chatbot
+Thực hành: prompt engineering
+📒 CHƯƠNG 6: Các bài toán NLP chính
+
+Task-based thinking
+
+Text classification
+Sentiment analysis
+Topic modeling
+NER (Named Entity Recognition)
+POS tagging
+Dependency parsing
+Constituency parsing
+Machine translation
+Text summarization
+Question answering
+Information retrieval
+Dialogue systems
+Text generation
+Keyword extraction
+Paraphrase detection
+Semantic similarity
+Text entailment (NLI)
+Coreference resolution
+Slot filling
+Intent classification
+Speech → text (intro)
+Multimodal NLP
+Knowledge graph NLP
+Document understanding
+Code NLP
+Evaluation metrics từng task
+Benchmark datasets
+Error analysis theo task
+Thực hành multi-task
+End-to-end NLP system
+📔 CHƯƠNG 7: NLP cho Tiếng Việt & Low-resource
+
+Rất quan trọng nếu m làm ở VN
+
+Đặc thù tiếng Việt
+Word segmentation VN
+POS tagging VN
+NER VN
+Vietnamese datasets
+VnCoreNLP
+PhoBERT
+ViT5
+Tokenization VN vs English
+Handling dấu tiếng Việt
+Noise text VN (teencode)
+Data scarcity
+Data augmentation VN
+Cross-lingual learning
+Multilingual models
+Transfer learning VN
+Evaluation VN
+Domain adaptation
+OCR + NLP VN
+Speech VN (intro)
+Chatbot tiếng Việt
+Legal/medical VN NLP
+Social media VN NLP
+Hate speech VN
+Spell correction VN
+Search engine VN
+Thực hành NER VN
+Thực hành sentiment VN
+Thực hành chatbot VN
+Build production VN NLP
+📓 CHƯƠNG 8: NLP System & Production
+
+Từ model → sản phẩm
+
+Pipeline production
+Data pipeline
+Model serving
+API (FastAPI)
+Batch vs realtime
+Logging
+Monitoring
+Model drift
+A/B testing
+CI/CD ML
+Docker
+GPU vs CPU
+Scaling system
+Caching
+Vector DB (FAISS)
+Elasticsearch
+RAG system
+Prompt pipeline
+Evaluation production
+Latency optimization
+Memory optimization
+Cost optimization
+Security NLP
+Privacy
+Responsible AI
+Human-in-the-loop
+Feedback loop
+Thực hành deploy model
+Thực hành RAG system
+End-to-end system
+📚 CHƯƠNG 9: Research & Advanced Topics
+
+Level đọc paper, làm thesis
+
+Paper reading skill
+SOTA là gì
+Benchmark leaderboard
+Transformer variants
+Long context models
+Efficient attention
+Retrieval models
+Knowledge injection
+LLM agents
+Tool use
+Planning models
+Multimodal LLM
+Vision-Language models
+Diffusion + NLP
+Chain-of-thought
+Self-consistency
+Prompt optimization
+Alignment problem
+Safety LLM
+Jailbreak
+Evaluation LLM nâng cao
+Synthetic data
+Data-centric AI
+Fine-tuning large models
+Federated learning
+Continual learning
+Interpretability LLM
+Open problems NLP
+Viết paper NLP
+Làm thesis NLP
